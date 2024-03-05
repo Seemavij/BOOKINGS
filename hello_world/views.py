@@ -5,4 +5,4 @@ from django.http import HttpResponse
 # Create your views here.
 
 def about_me(request):
-    return HttpResponse("Hello World")
+    return HttpResponse("Hello, World!")
