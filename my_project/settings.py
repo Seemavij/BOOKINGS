@@ -55,6 +55,7 @@ MIDDLEWARE = [
     'django.contrib.auth.middleware.AuthenticationMiddleware',
     'django.contrib.messages.middleware.MessageMiddleware',
     'django.middleware.clickjacking.XFrameOptionsMiddleware',
+
 ]
 
 ROOT_URLCONF = 'my_project.urls'
@@ -92,7 +93,7 @@ DATABASES = {
     'default': dj_database_url.parse(os.environ.get("DATABASE_URL"))
 }
 CSRF_TRUSTED_ORIGINS = [
-    "https://*.codeanyapp.com",
+    "https://8000-seemavij-booking-365iimojdqj.ws-eu108.gitpod.io.codeanyapp.com",
     "https://*.herokuapp.com"
 ]
 # Password validation
