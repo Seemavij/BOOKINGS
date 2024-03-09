@@ -30,7 +30,7 @@ SECRET_KEY = 'django-insecure-al7jmgc1w^)wa77ps!8^a=@4x(6wxk&qbc7x1_o0&!-xx4zr-(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['8000-seemavij-booking-365iimojdqj.ws-eu108.gitpod.io'
+ALLOWED_HOSTS = ['8000-seemavij-bookings-y3uo0h809c4.ws-eu108.gitpod.io/'
 ,'.herokuapp.com']
 
 
@@ -44,7 +44,7 @@ INSTALLED_APPS = [
     'django.contrib.messages',
     'django.contrib.staticfiles',
     'hello_world',
-
+    
 ]
 
 MIDDLEWARE = [
