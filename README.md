@@ -12,7 +12,7 @@ menu - contains the view for the menu page as well as the two models; Category a
 restaurant - contains two models: OpeningHours and BookingDetailsDjango Apps:
 
 * CRUDS:
-> Create - Users and admin can create objects in the Booking model via the booking form + booking view code on the booking page. Admin can additionally create objects via the admin panel.
+/workspace/bookings/templates> Create - Users and admin can create objects in the Booking model via the booking form + booking view code on the booking page. Admin can additionally create objects via the admin panel.
 
 > Reading - Users can find their past (previous bookings page) and future booking (upcoming bookings page) object on their site and see the booking details (booking details page). Admin can see all bookings in admin panel, or filtered bookings on the pending bookings page, accepted bookings page, and the updated bookings page.
 
