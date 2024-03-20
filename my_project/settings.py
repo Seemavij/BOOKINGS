@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'hello_world',
     'django_summernote',
     'my_project',
+    'about',
     
 ]
 
