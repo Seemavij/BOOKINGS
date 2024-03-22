@@ -12,7 +12,7 @@ https://docs.djangoproject.com/en/3.2/ref/settings/
 
 
 import os
-from pathlib import Path
+
 
 import dj_database_url
 if os.path.isfile("env.py"):
@@ -32,7 +32,8 @@ SECRET_KEY = 'django-insecure-9!88j^=3u26%043g$kc(#gi+g5m6g0d)%vb17qev^3j1_)ra-(
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = [ '8000-seemavij-bookings-y3uo0h809c4.ws-eu110.gitpod.io']
+ALLOWED_HOSTS = [ '8000-seemavij-bookings-y3uo0h809c4.ws-eu110.gitpod.io'
+ ,'.herokuapp.com']
 
 
 # Application definition
@@ -44,8 +45,7 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'project',
-    'blow',
+     'blow',
 ]
 
 MIDDLEWARE = [
