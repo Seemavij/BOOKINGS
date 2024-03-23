@@ -1,0 +1,20 @@
+{
+  "name": "bookings",
+  "version": "1.0.0",
+  "description": "* Resturant Bookings:  >The idea behind this project is to create a site for a restaurant that can manage reservations. On deployment all the restaurant details, including contact details, openings hours, booking details, and categories have already been set up, however this can be edited as the admin wants thus making the content changeable. Much of the content is auto generated on the pages, and the admin can set up their preferred criteria.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Seemavij/bookings.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Seemavij/bookings/issues"
+  },
+  "homepage": "https://github.com/Seemavij/bookings#readme"
+}
